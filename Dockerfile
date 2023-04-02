@@ -5,10 +5,10 @@ FROM python:3.7-slim
 WORKDIR /C:\Users\Dell\OneDrive\Desktop\4694_b116_telecom_customer_churn\Hackethon\Telecom_churn
 
 # Copy the requirements.txt file to the working directory
-COPY requirements.txt .
+COPY Requirements.txt .
 
 # Install the dependencies specified in requirements.txt
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r Requirements.txt
 
 # Copy the rest of the application code to the working directory
 COPY . .
