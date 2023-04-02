@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM python:3.7-slim
+FROM python:3.8
 
 # Set the working directory to /app
 WORKDIR /C:\Users\Dell\OneDrive\Desktop\4694_b116_telecom_customer_churn\Hackethon\Telecom_churn
